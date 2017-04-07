@@ -7,7 +7,6 @@
 # Author: Gergely Erdelyi <dyce@d-dome.net>
 #---------------------------------------------------------------------
 from idaapi import *
-import binascii
 
 class MyDbgHook(DBG_Hooks):
     """ Own debug hook class that implementd the callback functions """
